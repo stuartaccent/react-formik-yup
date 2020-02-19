@@ -1,0 +1,54 @@
+@import url('https://unpkg.com/karma-css@latest/dist/karma.min.css');
+
+body {
+    margin-top: 5rem;
+}
+
+form, pre {
+    margin-bottom: 5rem;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    width: initial;
+}
+
+.radios label:last-of-type,
+.checkboxes label:last-of-type,
+.checkbox label {
+    margin-bottom: 1.5rem;
+}
+
+.radios label,
+.checkboxes label,
+.checkbox label {
+    font-weight: normal;
+}
+
+.tags {
+    margin-bottom: 1.5rem;
+}
+
+.tag input {
+    width: initial;
+    margin-bottom: .5rem;
+}
+
+.field-error {
+    color: red;
+    margin: -1rem 0 1.5rem 0;
+}
+
+.tag .field-error {
+    margin: 0 0 1.5rem 0;
+}
+
+.form-actions {
+    padding-top: 3rem;
+}
